@@ -102,7 +102,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "**__Click A Button To Get Started.__**"
             ),
-            thumb_url="https://telegra.ph/file/1b8f08dba704a5eb2bb09.jpg",
+            thumb_url="https://https://telegra.ph/file/cc528b1f6ed4b7acd3049.jpg",
             reply_markup=buttons,
         ),
     ]
@@ -115,14 +115,14 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main bot", url="https://t.me/EmiexRobot"),
+        InlineKeyboardButton("Main bot", url="https://t.me/HaotogelOfficialLivedraw"),
         InlineKeyboardButton(
             "Go Inline!", switch_inline_query_current_chat=""
         ),
     )
 
     msg = f"""
-**[Emiko Robot ❤️](https://t.me/emikosupport):**
+**[HAOTOGEL OFFICIAL](https://t.me/HaotogelOfficialLivedraw):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
