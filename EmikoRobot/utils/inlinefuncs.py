@@ -102,7 +102,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "**__Click A Button To Get Started.__**"
             ),
-            thumb_url="https://https://telegra.ph/file/cc528b1f6ed4b7acd3049.jpg",
+            thumb_url="https://telegra.ph/file/cc528b1f6ed4b7acd3049.jpg",
             reply_markup=buttons,
         ),
     ]
